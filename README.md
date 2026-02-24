@@ -315,6 +315,7 @@ board shortcuts. There are also packages that make scholarly writing in RStudio 
 -  [zooaRch](http://cran.r-project.org/web/packages/zooaRch/) contains two zooarchaeological datasets.
 -  [gsloid](https://CRAN.R-project.org/package=gsloid) Contains published data sets for global benthic d18O data for 0-5.3 Myr and global sea levels based on marine sediment core data for 0-800 ka
 - [evoarchdata](https://github.com/benmarwick/evoarchdata) contains four published datasets widely used in archaeological studies of cultural evolution
+- [roadDB](https://cran.r-project.org/web/packages/roadDB/index.html) can query archaeological, paleoanthropological, paleofaunal and paleo botanical remains from sites in Africa and Eurasia dating between 3,000,000 and 20,000 years BP, using the [ROCEEH Out of Africa Database (ROAD)](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php).
 
 ## Places to go for help
 
@@ -366,6 +367,8 @@ Angourakis, Andreas, Verònica Martínez Ferreras, Alexis Torrano, and Josep M. 
 Arranz-Otaegui, A., Roe, J. (2023). Revisiting the concept of the ‘Neolithic Founder Crops’ in southwest Asia. Veget Hist Archaeobot (2023). https://doi.org/10.1007/s00334-023-00917-1
 
 Arroyo-Kalin, Manuel and Riris Philip (2021). Did pre-Columbian populations of the Amazonian biome reach carrying capacity during the Late Holocene? _Philosophical Transactions of the Royal Society B: Biological Sciences_ B37620190715 <http://doi.org/10.1098/rstb.2019.0715>
+
+Bader, G. D., Sommer, C., Linstädter, J., Masia, D. P., Blessing, M. A., Forrester, B., & MacDonald, B. L. (2025). Decoding hunter-gatherer-knowledge and selective choice of lithic raw materials during the Middle and Later Stone Age in Eswatini. _Journal of Archaeological Science_, 180, 106302. [https://doi.org/10.1016/j.jas.2025.106302]() [Code](https://doi.org/10.5281/zenodo.15222489)
 
 Barr, W. A., Pobiner, B., Rowan, J., Du, A., & Faith, J. T. (2022). No sustained increase in zooarchaeological evidence for carnivory after the appearance of Homo erectus. _Proceedings of the National Academy of Sciences_, 119(5). https://doi.org/10.1073/pnas.2115540119
 
