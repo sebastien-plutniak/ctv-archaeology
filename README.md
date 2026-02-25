@@ -87,6 +87,7 @@ Contributions to this Task View are always welcome, and encouraged. The source f
 
 ## Visualising data
 
+- [archeoViz](https://CRAN.R-project.org/package=archeoViz), a GUI for the (visual and statistical) exploration and web communication of archaeological spatial data  
 - [ggplot2](http://cran.rstudio.com/web/packages/ggplot2/index.html) produces a very wide variety of attractive plots with a highly flexible and logical syntax.
 -    Extensions include [ggbiplot](https://github.com/vqv/ggbiplot) (PCA biplots with ellipses),  [GGally](http://cran.r-project.org/web/packages/GGally/index.html) (plot matrices), [ggtern](http://www.ggtern.com/) (ternary plots), [ggfortify](https://github.com/sinhrks/ggfortify) (many methods for plotting PCA, clustering, linear model output, etc., using ggplot2),[ggalt](https://github.com/hrbrmstr/ggalt) (more geoms, coords, stats, scales and fonts, including splines, 1d and 2d densities), [waffle](https://github.com/hrbrmstr/waffle) (for square pie charts), [ggraph](https://github.com/thomasp85/ggraph) for treemaps, [ggfan](https://CRAN.R-project.org/package=ggfan) for fanplots, [tidybayes](https://github.com/mjskay/tidybayes) for plotting output of Bayesian analysis, [ggridges](https://CRAN.R-project.org/package=ggridges) for ridge plots, [ggalt](https://CRAN.R-project.org/package=ggalt) for many additional geoms, [ggrepel](https://github.com/slowkow/ggrepel) for moving overlapping text labels away from each other, and [shadowtext](https://cran.r-project.org/web/packages/shadowtext/) for a halo around text to make it more readable on busy plots.
 -    For showing distributions across several categories: [ggforce](https://CRAN.R-project.org/package=ggforce), [ggbeeswarm](https://github.com/eclarke/ggbeeswarm), [vipor](https://github.com/sherrillmix/vipor), [sinaplot](https://cran.r-project.org/web/packages/sinaplot)
@@ -189,6 +190,7 @@ Dissimilarity coefficients
 ## Making maps and using R as a Geographical Information System
 
 - Making maps: [ggspatial](http://cran.rstudio.com/web/packages/ggspatial/index.html) for easy plotting of most kinds of spatial data, see also: [maps](http://cran.rstudio.com/web/packages/maps/index.html), [rworldmap](http://cran.rstudio.com/web/packages/rworldmap/index.html), [mapdata](http://cran.rstudio.com/web/packages/mapdata/index.html), [maptools](http://cran.rstudio.com/web/packages/maptools/index.html), [mapproj](http://cran.rstudio.com/web/packages/mapproj/index.html),[mapsf](http://cran.r-project.org/web/packages/mapsf/index.html), [ggplot2](http://cran.rstudio.com/web/packages/ggplot2/index.html), [ggmap](http://cran.rstudio.com/web/packages/ggmap/index.html), [RgoogleMaps](http://cran.rstudio.com/web/packages/RgoogleMaps/index.html), [cartography](http://cran.rstudio.com/web/packages/cartography/index.html) [RColorBrewer](http://cran.rstudio.com/web/packages/RColorBrewer/index.html)
+- [spatialCatalogueViewer](https://cran.r-project.org/package=spatialCatalogueViewer) to create simple interactive catalogue of georeferenced data. See use cases: [archeoViz Portal](https://analytics.huma-num.fr/archeoviz/home/), [Open-archeOcsean](https://analytics.huma-num.fr/open-archeocsean/)
 - Scale bars and North arrows can be added to maps made with ggplot and ggmap using [GISTools](https://cran.r-project.org/web/packages/GISTools), [ggsn](https://github.com/oswaldosantos/ggsn) or [legendMap](https://github.com/3wen/legendMap).
 - Interactive mapping of spatial objects with zooming and panning is possible with [leaflet](https://cran.rstudio.com/web/packages/leaflet/index.html) and geo[mapview](http://cran.rstudio.com/web/packages/mapview/index.html)
 - To interactively create and edit spatial objects (points, lines, polygons), use [mapedit](https://cran.r-project.org/package=mapedit), and to smooth drawn polygons, use [smoothr](https://cran.r-project.org/package=smoothr)
@@ -263,6 +265,7 @@ Dissimilarity coefficients
 -  [simecol](http://cran.rstudio.com/web/packages/simecol/index.html) for simulating ecological (and other) dynamic systems. It can be used for differential equations, individual-based (or agent-based) and other models as well.
 -  One-dimensional cellular automata are also possible to model with the package [CellularAutomaton](http://cran.rstudio.com/web/packages/CellularAutomaton/index.html).
 - [archeofrag](https://cran.r-project.org/package=archeofrag) for simulating site formation processes, with a particular focus on refitting and spatial analysis.
+- [archeofrag.gui](https://cran.r-project.org/package=archeofrag.gui) a GUI interface for `archeofrag`, offering even more.
 
 ## Network analysis
 
@@ -305,6 +308,7 @@ board shortcuts. There are also packages that make scholarly writing in RStudio 
 ## Datasets
 
 -   [archdata](http://cran.rstudio.com/web/packages/archdata/index.html) contains eleven archaeological datasets from around the world reported in published studies. These represent typical forms of archaeological data (and so are useful for teaching)
+-   [archeofrag](https://cran.r-project.org/package=archeofrag) includes refitting datasets presented in a standardised format.
 -   [binford](https://github.com/benmarwick/binford) contains more than 200 variables coding aspects of hunter-gatherer subsistence, mobility, and social organization for 339 ethnographically documented groups of hunter-gatherers, as used in Binford (2001) _Constructing Frames of Reference: An Analytical Method for Archaeological Theory Building Using Ethnographic and Environmental Data Sets_
 - [bioanth](https://github.com/geanes/bioanth) contains three osteometric datasets useful for biological and forensic anthropology.
 -  [BSDA](http://cran.rstudio.com/web/packages/BSDA/index.html) contains a dataset of 60 radiocarbon ages of observations taken from an archaeological site with four phases of occupation.
